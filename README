@@ -1,0 +1,15 @@
+### How to run it?
+
+You must have mongoDB and set your own mysql database in the properties.
+In Test.class you have to manipulate comment to select the database.
+
+## What is this?
+
+The program adds 1000 records from the csv file to two databases.
+
+
+## What was the purpose?
+
+The goal was to check the speed of adding 1000 records to the database.
+MongoDB:0.4252237 seconds.
+MySQL:81.711648099 seconds.
